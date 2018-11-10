@@ -1,5 +1,5 @@
-## OneShot_SpeechCommand
-# Background
+# OneShot_SpeechCommand
+## Background
 Speech Command is a basic function for almost all smart devices. with speech command, people could ask device to do something. 
 
 the tradition approach is to train a classfication model with specified command. while different device from different company need differnt command, that means training is inavoidable. 
@@ -15,7 +15,7 @@ Till now, we try two algorithm
 2, build an one shot model with GRU, it achieves like 65% accuracy on test set, it may not be good enough. while it may be the right direction. 
 
 
-# practice
+## Practice
 
 
 
@@ -34,7 +34,7 @@ Training Data set
 2, put the dataset on your local disk and set the directory in notebook before you run the model. 
 
 
-# Need more helps
+## Need more helps
 Still it is no clear that one shot is good enough for speech command in field. 
 We need help in the following topics
 
